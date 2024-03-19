@@ -8,7 +8,11 @@ function App() {
 
   return (
     <div>
-
+      <div className="">
+        <h1>Our Testimonial</h1>
+        <div className=""></div>
+        <Testimonial></Testimonial>
+      </div>
     </div>
   )
 }
