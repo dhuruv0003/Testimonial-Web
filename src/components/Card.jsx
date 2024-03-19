@@ -1,3 +1,6 @@
+import {FaQuoteLeft,FaQuoteright} from 'react-icons'
+
+
 export default function Card(props){
     let review=props.review
     return (
