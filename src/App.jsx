@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import reviews from './data'
+import Testimonial from './components/Testimonial'
 
 function App() {
   

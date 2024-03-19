@@ -9,7 +9,7 @@ export default function Card(props){
             <div className="">
                 <p>{review.name}</p>
             </div>
-            <div className="">{}review.job</div>
+            <div className="">{review.job}</div>
         </div>
 
     )

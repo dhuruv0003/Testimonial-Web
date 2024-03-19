@@ -1,6 +1,6 @@
+import Card from "./Card"
 
-
-export function Testimonial(props){ 
+export default function Testimonial(props){ 
     let reviews=props.reviews
     return (
         <div className="">
