@@ -1,5 +1,5 @@
-import {FaQuoteLeft,FaQuoteright} from 'react-icons'
-
+import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
+import { FaAngleLeft,FaAngleRight } from "react-icons/fa";
 
 export default function Card(props){
     let review=props.review
@@ -17,7 +17,16 @@ export default function Card(props){
                 <FaQuoteLeft></FaQuoteLeft>
             </div>
             <div className="">
-                re
+                {review.text}
+            </div>
+            <div className="">
+                <FaQuoteRight></FaQuoteRight>
+            </div>
+            <div className="">
+                <button> <FaAngleLeft/> </button>
+                <button>
+                <FaAngleRight/>
+                </button>
             </div>
         </div>
 
