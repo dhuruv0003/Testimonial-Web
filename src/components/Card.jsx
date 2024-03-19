@@ -7,7 +7,7 @@ export default function Card(props){
         
         <div className="">
             <div className="">
-                <img src="review.image" alt="" />
+                <img src={review.image} alt="" />
             </div>
             <div className="">
                 <p>{review.name}</p>
@@ -27,6 +27,9 @@ export default function Card(props){
                 <button>
                 <FaAngleRight/>
                 </button>
+            </div>
+            <div className="">
+                <button>Surprise Me</button>
             </div>
         </div>
 
