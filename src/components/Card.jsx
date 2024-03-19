@@ -12,8 +12,15 @@ export default function Card(props){
             <div className="">
                 <p>{review.name}</p>
             </div>
-            <div className="">{review.job}</div>
+            <div className=""><p>{review.job}</p></div>
+            <div className="">
+                <FaQuoteLeft></FaQuoteLeft>
+            </div>
+            <div className="">
+                re
+            </div>
         </div>
+
 
     )
 }
