@@ -1,13 +1,15 @@
-export default function Card(){
+export default function Card(props){
+    let review=props.review
     return (
+        
         <div className="">
             <div className="">
-                <img src="" alt="" />
+                <img src="review.image" alt="" />
             </div>
             <div className="">
-                <p></p>
+                <p>{review.name}</p>
             </div>
-            <div className=""></div>
+            <div className="">{}review.job</div>
         </div>
 
     )
