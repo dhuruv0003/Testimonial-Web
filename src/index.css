@@ -4,10 +4,13 @@
 
 @media (max-width:767px) {
     .image{
-        top:5rem;
+        top:8rem;
         left:1rem;
     }
     .card{
         margin-top: 5rem;
+    }
+    .test{
+        margin-bottom: 4rem;
     }
 }
