@@ -27,7 +27,7 @@ export default function Testimonial(props) {
     }
 
     return (
-        <div className="w-[85vw] md:w-[700px] bg-[#f9f7f3] flex flex-col justify-center items-center mt-10 p-10  transition-all duration-700 rounded-[10rem]">
+        <div className="w-[85vw] md:w-[700px] bg-[#f9f7f3] flex flex-col justify-center items-center mt-10 p-10  transition-all duration-700 rounded-[10rem] ">
             <Card review={reviews[index]}></Card>
             <div className=" flex text-3xl justify-center mt-5 gap-3 text-[#ffa20e] items-center font-bold">
                 <button

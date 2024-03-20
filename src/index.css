@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width:600px) {
+@media (max-width:767px) {
     .image{
-        top:10rem;
+        top:5rem;
         left:1rem;
+    }
+    .card{
+        margin-top: 5rem;
     }
 }
