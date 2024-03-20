@@ -27,18 +27,18 @@ export default function Testimonial(props) {
     }
 
     return (
-        <div className="">
+        <div className="w-[85vw] md:w-[700px] bg-[#f9f7f3] flex flex-col justify-center items-center mt-10 p-10  transition-all duration-700 rounded-[10rem]">
             <Card review={reviews[index]}></Card>
-            <div className=" flex text-3xl justify-center mt-5 gap-3 text-violet-400 items-center font-bold">
+            <div className=" flex text-3xl justify-center mt-5 gap-3 text-[#ffa20e] items-center font-bold">
                 <button
-                    onClick={leftshifthandler} className=" hover:text-violet-600"> <FaChevronLeft /> </button>
-                <button onClick={rightshifthandler} className="hover:text-violet-600">
+                    onClick={leftshifthandler} className=" hover:text-[#f6831f]"> <FaChevronLeft /> </button>
+                <button onClick={rightshifthandler} className="hover:text-[#f6831f]">
                     <FaChevronRight />
                 </button>
             </div>
             <div className="">
                 <button
-                    onClick={surprisehandler} className="bg-violet-400 hover:bg-violet-600 transition-all duration-200 text-white font-bold px-10 py-2 rounded-md mt-5">Surprise Me</button>
+                    onClick={surprisehandler} className="bg-[#ffa20e] hover:bg-[#f6831f] transition-all duration-200 text-white font-bold px-10 py-2 rounded-md mt-5">Surprise Me</button>
             </div>
         </div>
     )

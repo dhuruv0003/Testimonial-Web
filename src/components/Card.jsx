@@ -6,22 +6,22 @@ export default function Card(props){
     return (
         
         <div className="flex flex-col md:relative">
-            <div className="absolute top-[-7rem] z-10 mx-auto">
+            <div className=" image absolute top-[-7rem]  z-10 mx-auto ">
                 
                 <img className="  aspect-square rounded-full w-[140px] h-[140px] z-25 " src={review.image} alt="" />
-                <div className="absolute w-[140px] h-[140px] z-[-15] bg-violet-700 rounded-full right-[-1rem] top-[-1rem]"></div>
+                <div className="absolute w-[140px] h-[140px] z-[-15] bg-[#f6831f] rounded-full right-[-0.7rem] top-[-0.5rem] "></div>
             </div>
-            <div className="text-center mt-7">
+            <div className="text-center mt-4">
                 <p className="font-bold text-2xl capitalize" >{review.name}</p>
             </div>
-            <div className=" text-center mt-7"><p className=" uppercase text-violet-300  font-semibold">{review.job}</p></div>
-            <div className="text-violet-400 mt-5  mx-auto">
+            <div className=" text-center mt-7"><p className=" uppercase text-[#ffa20e]  font-semibold">{review.job}</p></div>
+            <div className=" mt-5  mx-auto">
                 <FaQuoteLeft></FaQuoteLeft>
             </div>
             <div className="text-center mt-4 text-slate-500">
                 {review.text}
             </div>
-            <div className="text-violet-400  mx-auto mt-5">
+            <div className="  mx-auto mt-5">
                 <FaQuoteRight></FaQuoteRight>
             </div>
             
