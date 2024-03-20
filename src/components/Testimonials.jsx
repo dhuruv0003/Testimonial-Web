@@ -15,7 +15,7 @@ export default function Testimonial(props) {
             setindex(index - 1)
     }
     function rightshifthandler() {
-        if (index + 1 > reviews.length - 1) {
+        if (index + 1 >= reviews.length ) {
             setindex(0)
         }
         else {
