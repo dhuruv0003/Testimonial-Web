@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width:767px) {
+@media (max-width:640px) {
     .image{
         top:8rem;
         left:1rem;
