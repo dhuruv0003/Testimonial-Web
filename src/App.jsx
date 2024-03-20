@@ -7,7 +7,7 @@ function App() {
   
 
   return (
-    <div className='flex flex-col  w-[100vw] h-[101vh] justify-center items-center bg-[#14213d]'>
+    <div className='flex flex-col  w-[100vw] h-[100vh] justify-center items-center bg-[#14213d]'>
       <div className="text-center">
         <h1 className='text-4xl text-[#fffcf2] font-bold  '>Our Testimonial</h1>
         <div className=" bg-[#ffa20e] h-[4px]  
