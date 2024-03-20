@@ -23,7 +23,7 @@ export default function Testimonial(props) {
         }
     }
     function surprisehandler() {
-        
+        setindex(Math.floor(Math.random()*reviews.length))
     }
 
     return (
