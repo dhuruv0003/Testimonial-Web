@@ -38,7 +38,7 @@ export default function Testimonial(props) {
             </div>
             <div className="">
                 <button
-                    onClick={surprisehandler} className="bg-[#ffa20e] hover:bg-[#f6831f] transition-all duration-200 text-white font-bold px-10 py-2 rounded-md mt-5">Surprise Me</button>
+                    onClick={surprisehandler} className="bg-[#ffa20e] hover:bg-[#f6831f] transition-all duration-200 text-white font-bold px-10 py-2 rounded-md mt-5">Surprise Me </button>
             </div>
         </div>
     )
